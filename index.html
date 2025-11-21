@@ -1,0 +1,441 @@
+<!-- ...existing code... -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Subhadip Pati | Student Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ---------- Navbar ---------- -->
+  <header>
+    <div class="container nav">
+      <div class="logo">
+        <span>𝚂</span>
+        SUBHADIP PORTFOLIO
+      </div>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- ---------- Hero ---------- -->
+    <section class="hero">
+      <div class="hero-text">
+        <div class="hero-tag">
+          <span class="hero-tag-dot"></span>
+          Open to Internships & Projects
+        </div>
+        <h1 class="hero-title">
+          Hi, I'm <span>Subhadip Pati</span> 👋
+        </h1>
+        <p class="hero-subtitle">
+          A passionate B.Tech CSE student learning <strong>Full Stack Development</strong>, databases, and
+          programming languages like <strong>Python, Java, C, C++</strong>. I’m especially interested in
+          using <strong>Python for Machine Learning</strong> and data analysis.
+        </p>
+        <p class="typing" id="typing-role"></p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn-primary">
+            View Projects <span class="btn-icon">🚀</span>
+          </a>
+          <a href="#contact" class="btn-ghost">
+            Contact Me <span class="btn-icon">💬</span>
+          </a>
+        </div>
+      </div>
+
+      <aside class="hero-card">
+        <div class="hero-card-glow"></div>
+
+        <div class="hero-avatar">
+          <!-- Put your profile image at: assets/profile.jpg -->
+          <img src="assets/profile.jpg" alt="Subhadip Pati" style="width:64px;height:64px;border-radius:14px;object-fit:cover;border:1px solid rgba(255,255,255,0.04)" />
+          <div class="hero-avatar-info">
+            <h3>Subhadip Pati</h3>
+            <p>B.Tech CSE · Aspiring Full Stack & ML Developer</p>
+          </div>
+        </div>
+
+        <div class="hero-pill-row">
+          <div class="pill">
+            <span class="pill-dot"></span> Full Stack & Python
+          </div>
+          <div class="pill">
+            🤖 ML Beginner
+          </div>
+          <div class="pill">
+            📚 Always Learning
+          </div>
+        </div>
+
+        <p style="font-size: 0.85rem; color: var(--muted); margin-top: 0.5rem;">
+          “Code, break, fix, and learn. Every project helps me grow as a developer and problem solver.”
+        </p>
+
+        <div class="hero-card-footer">
+          <span>Current Focus:<br /><strong>Full Stack · Python · ML</strong></span>
+          <span>Version Control:<br /><strong>Git & GitHub</strong></span>
+        </div>
+      </aside>
+    </section>
+
+    <!-- ---------- Quick Instructions ---------- -->
+    <section id="instructions">
+      <h2 class="section-title reveal">How to edit & run</h2>
+      <p class="section-subtitle reveal">
+        Simple steps to update this portfolio locally and deploy:
+      </p>
+
+      <div class="about-grid">
+        <div class="about-card reveal">
+          <h3>⚙️ Local edits</h3>
+          <ul class="about-list">
+            <li>Update text in <code>index.html</code> to change content.</li>
+            <li>Replace the profile image at <code>assets/profile.jpg</code> (recommended size ~320×320).</li>
+            <li>Customize colors and layout in <code>style.css</code>.</li>
+            <li>Interactive behavior lives in <code>script.js</code> (or inline scripts below).</li>
+          </ul>
+        </div>
+
+        <div class="about-card reveal">
+          <h3>🚀 Deploy</h3>
+          <ul class="about-list">
+            <li>Initialize a Git repo: <code>git init</code>, add files, commit.</li>
+            <li>Push to GitHub and enable GitHub Pages (main branch / docs folder).</li>
+            <li>Or host on Netlify / Vercel for automatic deploys from your repo.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- About ---------- -->
+    <section id="about">
+      <h2 class="section-title reveal">About Me</h2>
+      <p class="section-subtitle reveal">
+        I'm a Computer Science student who loves building websites, learning backend technologies,
+        and exploring how Machine Learning can solve real-world problems.
+      </p>
+
+      <div class="about-grid">
+        <div class="about-card reveal">
+          <h3>🎓 Education</h3>
+          <p>
+            B.Tech in Computer Science & Engineering (CSE)<br />
+            Guru Nanak Institute of Technology (GNIT)<br />
+            <span style="font-size: 0.85rem; color: var(--muted);">
+              (2024 – 2028)
+            </span><br />
+            <span style="font-size: 0.85rem; color: var(--muted);">
+              Current CGPA: ~8.0 (approx, update as needed)
+            </span>
+          </p>
+          <ul class="about-list">
+            <li><span>•</span> Interested in Web Development & Machine Learning</li>
+            <li><span>•</span> Actively learning Data Structures & Algorithms</li>
+            <li><span>•</span> Practice with small projects and coding problems</li>
+          </ul>
+        </div>
+
+        <div class="about-card reveal">
+          <h3>🧾 Brief — About Me</h3>
+          <p>
+            I enjoy turning ideas into working projects. I focus on building responsive web apps,
+            learning backend APIs, and applying Python for data tasks. I like breaking problems into
+            small steps, testing often, and improving continuously. Outside coding, I read technical
+            blogs and experiment with mini ML projects to apply theory.
+          </p>
+          <ul class="about-list">
+            <li><span>•</span> Quick learner, team player, and problem solver</li>
+            <li><span>•</span> Comfortable with CLI, Git, VS Code</li>
+            <li><span>•</span> Looking for internships and collaborative projects</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- Skills ---------- -->
+    <section id="skills">
+      <h2 class="section-title reveal">Skills</h2>
+      <p class="section-subtitle reveal">
+        These are the technologies and tools I am learning and using in my projects.
+      </p>
+
+      <div class="skills-grid">
+        <!-- Full Stack -->
+        <div class="skill-card reveal">
+          <h3><span>🌐</span> Full Stack Basics</h3>
+          <p class="skill-text">
+            Building simple full stack applications with frontend and basic backend ideas.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Node.js (learning)</span>
+          </div>
+          <div class="skill-level-bar">
+            <div class="skill-level-fill" data-level="65"></div>
+          </div>
+        </div>
+
+        <!-- Programming Languages -->
+        <div class="skill-card reveal">
+          <h3><span>💻</span> Programming Languages</h3>
+          <p class="skill-text">
+            Learning to write clean and efficient code in multiple languages.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">C++</span>
+          </div>
+          <div class="skill-level-bar">
+            <div class="skill-level-fill" data-level="70"></div>
+          </div>
+        </div>
+
+        <!-- Python & Machine Learning -->
+        <div class="skill-card reveal">
+          <h3><span>🤖</span> Python & Machine Learning</h3>
+          <p class="skill-text">
+            Exploring how to use Python for data analysis and basic machine learning.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">NumPy (learning)</span>
+            <span class="skill-tag">Pandas (learning)</span>
+            <span class="skill-tag">ML Basics</span>
+          </div>
+          <div class="skill-level-bar">
+            <div class="skill-level-fill" data-level="50"></div>
+          </div>
+        </div>
+
+        <!-- Database -->
+        <div class="skill-card reveal">
+          <h3><span>🗄️</span> Database & SQL</h3>
+          <p class="skill-text">
+            Understanding how to store, manage, and query data.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL / SQL</span>
+            <span class="skill-tag">Relational DB</span>
+            <span class="skill-tag">Basic Queries</span>
+          </div>
+          <div class="skill-level-bar">
+            <div class="skill-level-fill" data-level="55"></div>
+          </div>
+        </div>
+
+        <!-- Git & GitHub -->
+        <div class="skill-card reveal">
+          <h3><span>🔧</span> Git & GitHub</h3>
+          <p class="skill-text">
+            Using version control to track changes and collaborate on projects.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Commit & Push</span>
+            <span class="skill-tag">Branching (learning)</span>
+          </div>
+          <div class="skill-level-bar">
+            <div class="skill-level-fill" data-level="60"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- Projects ---------- -->
+    <section id="projects">
+      <h2 class="section-title reveal">Projects</h2>
+      <p class="section-subtitle reveal">
+        Some simple projects I built or ideas I'm planning to build to practice my skills.
+      </p>
+
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <div>
+            <h3 class="project-title">Personal Portfolio Website</h3>
+            <p class="project-desc">
+              A responsive personal portfolio website with animations, sections for skills,
+              projects, and contact details. Built using HTML, CSS, and JavaScript.
+            </p>
+            <div class="project-stack">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <!-- Replace # with your GitHub link -->
+            <a href="#" target="_blank">
+              View on GitHub <span>↗</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div>
+            <h3 class="project-title">Student Management Console App</h3>
+            <p class="project-desc">
+              A basic console application to add, update, and display student details using
+              arrays or vectors.
+            </p>
+            <div class="project-stack">
+              <span>C / C++</span>
+              <span>OOP (optional)</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank">
+              View on GitHub <span>↗</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div>
+            <h3 class="project-title">Login & Registration Page</h3>
+            <p class="project-desc">
+              Simple login and registration UI connected to a database (or file) for storing user data.
+            </p>
+            <div class="project-stack">
+              <span>Java / Python</span>
+              <span>MySQL / SQLite</span>
+              <span>Backend Basics</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank">
+              View on GitHub <span>↗</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- New ML Project Idea -->
+        <div class="project-card reveal">
+          <div>
+            <h3 class="project-title">Simple ML Marks Predictor (Idea)</h3>
+            <p class="project-desc">
+              A basic Python project idea where you use past marks or study hours to predict performance
+              using a simple machine learning model like Linear Regression.
+            </p>
+            <div class="project-stack">
+              <span>Python</span>
+              <span>NumPy</span>
+              <span>Pandas</span>
+              <span>ML Basics</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank">
+              View on GitHub <span>↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- Contact ---------- -->
+    <section id="contact">
+      <h2 class="section-title reveal">Contact</h2>
+      <p class="section-subtitle reveal">
+        Want to discuss a project, internship, or just say hi? Feel free to reach out.
+      </p>
+
+      <div class="contact-wrapper">
+        <div class="contact-card reveal">
+          <h3>📬 Get In Touch</h3>
+          <p>
+            You can email me or connect with me on GitHub for more projects and code.
+          </p>
+          <div class="contact-links">
+            <!-- Replace with your real email & GitHub -->
+            <span>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></span><br/>
+            <span>GitHub: <a href="https://github.com/your-github-username" target="_blank">your-github-username</a></span>
+          </div>
+        </div>
+
+        <div class="contact-card reveal">
+          <h3>✉️ Send a Message</h3>
+          <!-- Demo form; connect to backend later if you want -->
+          <form onsubmit="event.preventDefault(); alert('Thank you! This is a demo form.');">
+            <div>
+              <label for="name">Name</label>
+              <input id="name" type="text" placeholder="Enter your name" required />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="Enter your email" required />
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" rows="4" placeholder="Write your message..." required></textarea>
+            </div>
+            <button type="submit" class="btn-primary" style="margin-top: 0.4rem;">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ---------- Footer ---------- -->
+  <footer>
+    <div class="container" style="display:flex;gap:1rem;flex-wrap:wrap;justify-content:space-between;">
+      <span>© <span id="year"></span> Subhadip Pati. All rights reserved.</span>
+      <span>Built with ❤️ using HTML, CSS, JavaScript & Python/ML ideas.</span>
+    </div>
+  </footer>
+
+  <!-- Inline JS: animate skill bars, typing, update year -->
+  <script>
+    // update year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // animate skill bars from data-level attribute
+    document.querySelectorAll('.skill-level-fill').forEach(el => {
+      const lvl = el.getAttribute('data-level') || '0';
+      // small delay for nicer effect
+      setTimeout(() => el.style.width = parseInt(lvl,10) + '%', 300);
+    });
+
+    // simple typing loop for role/skills
+    (function typingRoles(){
+      const el = document.getElementById('typing-role');
+      if(!el) return;
+      const roles = ['Full Stack Developer • Learner', 'Python • ML Enthusiast', 'Git • Problem Solver'];
+      let i=0,j=0,dir=1;
+      function tick(){
+        el.textContent = roles[i].slice(0,j);
+        j += dir;
+        if(j > roles[i].length){ dir = -1; setTimeout(tick,900); return; }
+        if(j < 0){ dir = 1; i = (i+1) % roles.length; j=0; }
+        setTimeout(tick, 60);
+      }
+      tick();
+    })();
+  </script>
+
+  <!-- External JS (optional) -->
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- ...existing code... -->
